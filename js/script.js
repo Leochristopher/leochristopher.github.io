@@ -20,5 +20,8 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 // console.log($('body').scrollTop());
 // e.preventDefault();

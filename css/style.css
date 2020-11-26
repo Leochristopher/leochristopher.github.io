@@ -2,27 +2,76 @@ html{
     position: relative;
 }
 
+.div{
+ font-size-adjust: 0.80;
+}
+
 body{
     margin-bottom: 100px;
     margin-top: 30px;
 }
-.jumbotron img{
-    width: 200px;
+.Home{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.Home img{
+    
+    max-width: 300px;
+    max-height: 300px;
+    width: 80%;
+    height: 80%;
     border: 5px solid #333;
 
 }
+
+
+.social{
+
+    position: absolute;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+}
+.social a{
+    
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin : 5px;
+
+}
+
+
 
 hr{
     width:  200px;
     border-top: 3px solid #999;
 }
 section{
+    margin-bottom: 100px;
+    margin-top: 30px;
     min-height: 300px;
 }
 
-.portfolio{
-    background-color: #eee;
+
+
+.education{
+   
+    min-height: 400px;
 }
+
+.education img{
+    width: 100%;
+    max-width: 300px;
+   
+    
+}
+
+
 footer{
     position: absolute;
     width: 100%;
@@ -44,4 +93,19 @@ ul{
     display: table;
     margin: 0 auto;
     list-style-type: none;
+}
+
+.btn-xl {
+ 
+
+    font-size: 100px;
+    border-radius: 10px;
+    width: 200px;   
+    height: 200px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.tooltip{
+    font-size: 100%;
 }
